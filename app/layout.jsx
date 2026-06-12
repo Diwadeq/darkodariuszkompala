@@ -22,7 +22,6 @@ export const metadata = {
     "transport rzeczy Lubliniec",
     "transport towarów Lubliniec",
     "przewóz na żądanie Lubliniec",
-    "pomoc drogowa Lubliniec",
     "busy Lubliniec",
   ],
   openGraph: {

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Users, CarFront, Truck, Handshake, Boxes, Wrench } from "lucide-react";
+import { Users, CarFront, Truck, Handshake, Boxes } from "lucide-react";
 import Reveal from "@/components/Reveal";
 
 // Realny zakres usług transportowych (bez kodów-wypełniaczy z CEIDG).
@@ -35,12 +35,6 @@ const services = [
     title: "Usługi logistyczne",
     description:
       "Wsparcie w planowaniu i obsłudze transportu — sprawnie, terminowo i bez stresu.",
-  },
-  {
-    icon: Wrench,
-    title: "Pomoc drogowa",
-    description:
-      "Pomożemy w razie awarii lub potrzeby przewozu pojazdu. Zadzwoń — przyjedziemy.",
   },
 ];
 
