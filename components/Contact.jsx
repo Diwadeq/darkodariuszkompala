@@ -1,6 +1,6 @@
 "use client";
 
-import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
+import { MapPin, Phone, Mail, ExternalLink } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import { site } from "@/lib/site";
 
@@ -40,17 +40,6 @@ export default function Contact() {
               <a href={site.emailHref} className="break-all transition-colors hover:text-brand-600">
                 {site.email}
               </a>
-            </ContactRow>
-
-            <ContactRow icon={Clock} title="Godziny otwarcia">
-              <ul className="space-y-1">
-                {site.hours.map((h) => (
-                  <li key={h.day} className="flex justify-between gap-4">
-                    <span>{h.day}</span>
-                    <span className="font-medium text-slate-900">{h.time}</span>
-                  </li>
-                ))}
-              </ul>
             </ContactRow>
 
             <div className="mt-1 flex flex-col gap-3 sm:flex-row">
