@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Offset anchor scrolling so the sticky header doesn't cover headings. */
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-white text-slate-700 antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    @apply bg-brand-600 text-white;
+  }
+}
+
+@layer components {
+  /* Spójny, wyśrodkowany kontener treści. */
+  .container-px {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 px-6 py-3
+      text-base font-semibold text-white shadow-soft transition-all duration-200
+      hover:scale-[1.03] hover:bg-brand-700 hover:shadow-lg active:scale-95
+      focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2
+      focus-visible:outline-brand-600;
+  }
+
+  /* Delikatne podbicie ciemnych zdjęć (do podmiany na lepsze w przyszłości). */
+  .photo-enhance {
+    filter: brightness(1.08) contrast(1.06) saturate(1.08);
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-slate-300
+      bg-white px-6 py-3 text-base font-semibold text-slate-800 transition-all duration-200
+      hover:scale-[1.03] hover:border-slate-400 hover:shadow-md active:scale-95
+      focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2
+      focus-visible:outline-slate-400;
+  }
+}
