@@ -55,9 +55,13 @@ export default function Transport() {
           </p>
         </Reveal>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 flex flex-wrap justify-center gap-6">
           {services.map(({ icon: Icon, title, description }, i) => (
-            <Reveal key={title} delay={(i % 3) * 0.1}>
+            <Reveal
+              key={title}
+              delay={(i % 3) * 0.1}
+              className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
+            >
               <motion.article
                 whileHover={{ y: -6 }}
                 transition={{ duration: 0.2, ease: "easeOut" }}
