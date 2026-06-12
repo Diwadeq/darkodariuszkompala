@@ -11,27 +11,28 @@ const inter = Inter({
 export const metadata = {
   metadataBase: new URL("https://darko.5v.pl"),
   title: {
-    default: `${site.brand} Lubliniec — punkt kurierski, drukarnia, pieczątki`,
+    default: `${site.brand} Lubliniec — transport osób i rzeczy`,
     template: `%s | ${site.brand} Lubliniec`,
   },
   description:
-    "Punkt kurierski, drukarnia i pieczątki w Lublińcu. Nadasz i odbierzesz paczki, wydrukujesz dokumenty oraz zamówisz pieczątkę — szybko, lokalnie i profesjonalnie.",
+    "Transport osób i rzeczy w Lublińcu i okolicy. Komfortowy przewóz pasażerów oraz rzetelny transport towarów — zadbane samochody, punktualność i rozsądne ceny.",
   keywords: [
-    "punkt kurierski Lubliniec",
-    "drukarnia Lubliniec",
-    "pieczątki Lubliniec",
-    "ksero Lubliniec",
-    "wydruki Lubliniec",
-    "nadawanie paczek Lubliniec",
+    "transport osób Lubliniec",
+    "przewóz osób Lubliniec",
+    "transport rzeczy Lubliniec",
+    "transport towarów Lubliniec",
+    "przewóz na żądanie Lubliniec",
+    "pomoc drogowa Lubliniec",
+    "busy Lubliniec",
   ],
   openGraph: {
     type: "website",
     locale: "pl_PL",
     url: "https://darko.5v.pl",
     siteName: `${site.brand} Lubliniec`,
-    title: `${site.brand} Lubliniec — punkt kurierski, drukarnia, pieczątki`,
+    title: `${site.brand} Lubliniec — transport osób i rzeczy`,
     description:
-      "Przesyłki kurierskie, druk i pieczątki w jednym miejscu w centrum Lublińca.",
+      "Komfortowy przewóz osób i rzetelny transport towarów w Lublińcu i okolicy.",
   },
   alternates: {
     canonical: "https://darko.5v.pl",

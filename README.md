@@ -1,7 +1,7 @@
 # Darko Lubliniec — strona promocyjna
 
 Nowoczesna, jednostronicowa witryna (landing page) dla firmy **Darko** z Lublińca:
-punkt kurierski, drukarnia i pieczątki.
+**transport osób i rzeczy** (Darko Transport Osób i Rzeczy Dariusz Kompała).
 
 Zbudowana w **Next.js (App Router)** + **Tailwind CSS** + **Framer Motion** + **Lucide React**.
 Strona jest w 100% statyczna (SSG) i hostowana na **GitHub Pages**.
@@ -47,10 +47,11 @@ app/
 components/
   Header.jsx        # przyklejony nagłówek + menu mobilne + CTA
   Hero.jsx          # sekcja główna z nagłówkiem i przyciskami
-  Services.jsx      # 3 usługi: kurier, druk, pieczątki
+  Transport.jsx     # usługi transportowe (przewóz osób, towarów, logistyka, pomoc drogowa)
+  Fleet.jsx         # galeria floty (busy Mercedes + Kia Sportage)
   WhyUs.jsx         # dlaczego my (4 atuty)
   Contact.jsx       # dane kontaktowe + mapa Google
-  Footer.jsx        # stopka
+  Footer.jsx        # stopka (z NIP / REGON)
   Reveal.jsx        # animacja pojawiania się przy przewijaniu
 lib/
   site.js           # centralne dane firmy + linki nawigacji

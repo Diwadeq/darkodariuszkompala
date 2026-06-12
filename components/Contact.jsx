@@ -13,10 +13,11 @@ export default function Contact() {
             Kontakt
           </span>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-            Zapraszamy do naszego punktu
+            Zamów transport
           </h2>
           <p className="mt-4 text-lg text-slate-600">
-            Masz pytanie lub chcesz złożyć zamówienie? Zadzwoń, napisz lub wpadnij do nas.
+            Chcesz zamówić przewóz osób lub transport rzeczy? Zadzwoń lub napisz —
+            ustalimy trasę, termin i szczegóły.
           </p>
         </Reveal>
 

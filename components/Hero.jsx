@@ -1,13 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Phone, ArrowRight, Package, Printer, Stamp } from "lucide-react";
+import { Phone, ArrowRight, Users, Truck, ShieldCheck } from "lucide-react";
 import { site } from "@/lib/site";
 
 const highlights = [
-  { icon: Package, label: "Wielu kurierów" },
-  { icon: Printer, label: "Ekspresowy druk" },
-  { icon: Stamp, label: "Pieczątki od ręki" },
+  { icon: Users, label: "Przewóz osób" },
+  { icon: Truck, label: "Transport rzeczy" },
+  { icon: ShieldCheck, label: "Na czas i bezpiecznie" },
 ];
 
 // Delikatna kaskada dla elementów nagłówka hero.
@@ -39,23 +39,23 @@ export default function Hero() {
             className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-4 py-1.5 text-sm font-medium text-brand-700"
           >
             <span className="h-2 w-2 rounded-full bg-brand-500" />
-            Lokalne usługi w {site.city}
+            Transport osób i rzeczy — {site.city} i okolice
           </motion.span>
 
           <motion.h1
             variants={item}
             className="mt-6 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl md:text-6xl"
           >
-            Przesyłki, druk i pieczątki{" "}
-            <span className="text-brand-600">w jednym miejscu</span>
+            Transport osób i rzeczy{" "}
+            <span className="text-brand-600">na każdą trasę</span>
           </motion.h1>
 
           <motion.p
             variants={item}
             className="mx-auto mt-6 max-w-2xl text-lg text-slate-600 md:text-xl"
           >
-            Nadasz i odbierzesz paczki, wydrukujesz dokumenty i zamówisz pieczątkę
-            bez wychodzenia z miasta. Profesjonalna obsługa w samym centrum Lublińca.
+            Komfortowy przewóz pasażerów i rzetelny transport towarów — lokalnie w Lublińcu
+            i na dłuższych trasach. Zadbane samochody, punktualność i rozsądne ceny.
           </motion.p>
 
           <motion.div
@@ -66,8 +66,8 @@ export default function Hero() {
               <Phone className="h-5 w-5" aria-hidden />
               Zadzwoń: {site.phone}
             </a>
-            <a href="#uslugi" className="btn-secondary w-full sm:w-auto">
-              Nasze usługi
+            <a href="#transport" className="btn-secondary w-full sm:w-auto">
+              Zobacz ofertę
               <ArrowRight className="h-5 w-5" aria-hidden />
             </a>
           </motion.div>

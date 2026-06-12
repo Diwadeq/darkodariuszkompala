@@ -16,7 +16,8 @@ export default function Footer() {
               className="h-10 w-auto"
             />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-slate-600">
-              {site.tagline} w {site.city}. Szybko, lokalnie i profesjonalnie — wszystko w jednym miejscu.
+              {site.tagline} w {site.city} i okolicy. Komfortowo, punktualnie i bezpiecznie —
+              pasażerów i ładunek wozimy z dbałością.
             </p>
           </div>
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { Zap, MapPin, ShieldCheck, Layers } from "lucide-react";
+import { Zap, MapPin, ShieldCheck, Truck } from "lucide-react";
 import Reveal from "@/components/Reveal";
 
 const reasons = [
@@ -12,9 +12,9 @@ const reasons = [
   },
   {
     icon: MapPin,
-    title: "Lokalnie i blisko",
+    title: "Lokalnie i w trasie",
     description:
-      "Działamy w centrum Lublińca — wygodny dojazd i miejsca parkingowe w pobliżu.",
+      "Działamy w Lublińcu i okolicy. Dojedziemy tam, gdzie potrzebujesz — lokalnie i na dłuższych trasach.",
   },
   {
     icon: ShieldCheck,
@@ -23,10 +23,10 @@ const reasons = [
       "Doradzimy najlepsze rozwiązanie i zadbamy o każdy szczegół Twojego zlecenia.",
   },
   {
-    icon: Layers,
-    title: "Wszystko w jednym miejscu",
+    icon: Truck,
+    title: "Osoby i rzeczy",
     description:
-      "Kurier, druk i pieczątki bez jeżdżenia po całym mieście. Oszczędzasz czas.",
+      "Przewieziemy pasażerów i towary — krótkie kursy lokalne oraz dłuższe trasy. Jeden zaufany przewoźnik.",
   },
 ];
 

@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Services from "@/components/Services";
+import Transport from "@/components/Transport";
 import Fleet from "@/components/Fleet";
 import WhyUs from "@/components/WhyUs";
 import Contact from "@/components/Contact";
@@ -12,7 +12,7 @@ export default function HomePage() {
       <Header />
       <main>
         <Hero />
-        <Services />
+        <Transport />
         <Fleet />
         <WhyUs />
         <Contact />
