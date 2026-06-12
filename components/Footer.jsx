@@ -67,8 +67,15 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 border-t border-slate-200 pt-6 text-center text-sm text-slate-500">
-          © {year} {site.legalName}. Wszelkie prawa zastrzeżone.
+        <div className="mt-10 space-y-1 border-t border-slate-200 pt-6 text-center text-sm text-slate-500">
+          <p>© {year} {site.legalName}. Wszelkie prawa zastrzeżone.</p>
+          {(site.nip || site.regon) && (
+            <p>
+              {site.nip && <>NIP: {site.nip}</>}
+              {site.nip && site.regon && <span aria-hidden> · </span>}
+              {site.regon && <>REGON: {site.regon}</>}
+            </p>
+          )}
         </div>
       </div>
     </footer>
