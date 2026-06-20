@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Phone, ArrowRight, Users, Truck, ShieldCheck } from "lucide-react";
+import { Phone, ArrowRight, Users, Truck, ShieldCheck, Car } from "lucide-react";
 import { site } from "@/lib/site";
 
 const highlights = [
@@ -65,6 +65,10 @@ export default function Hero() {
             <a href={site.phoneHref} className="btn-primary w-full sm:w-auto">
               <Phone className="h-5 w-5" aria-hidden />
               Zadzwoń: {site.phone}
+            </a>
+            <a href="#flota" className="btn-secondary w-full sm:w-auto">
+              <Car className="h-5 w-5" aria-hidden />
+              Nasze samochody
             </a>
             <a href="#transport" className="btn-secondary w-full sm:w-auto">
               Zobacz ofertę
